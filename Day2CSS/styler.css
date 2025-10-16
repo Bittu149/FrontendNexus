@@ -1,0 +1,36 @@
+/* Default z-index auto hota hai har kisi ka */
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+.container{
+   background-color: antiquewhite;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+.box3{
+    background-color: chocolate;
+    position: relative;
+    z-index: 5;
+}
+.box4{
+    background-color: blue;
+}
+
+/* By default overflow is visible */
+/* overflow: hidden; */
+/* overflow:scroll; */
+/* overflow ho raha hai auto se scrool ho jayega */
+/* float lgane se photo ke left or right side jo space hai wo content se fill ho jayega */
+/* agr koi photo ke niche koi photo lgana hai toh toh clear tag ko use kr skte hai */
